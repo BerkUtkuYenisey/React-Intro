@@ -1,9 +1,10 @@
 import React from 'react';
+import MultiHeader from './MultiHeader';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello From React</h2>
+      <MultiHeader></MultiHeader>
     </div>
   );
 }
